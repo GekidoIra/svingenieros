@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta name="robots" content="noindex">
+<meta charset="UTF-8">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="css/reset.css">
+<link rel="stylesheet" href="css/style.css">
+<title>Torneo de Criadores de Lujo Sunset Laguna - 5 Pollos</title>
+</head>
+<body>
+<header> <img src="imagenes/logo.png" alt="Quintas Laguna">
+	<h1>Palenque <br>
+		Quinta Laguna</h1>
+	<img src="imagenes/banner.jpeg" id="banner" alt="Quintas Laguna">
+	<nav>
+		<ul>
+			<li><a href="registrar_pollo.html">Registrar Pollo</a></li>
+			<li><a href="buscar_pollo.html">Buscar Pollo</a></li>
+		</ul>
+	</nav>
+</header>
+<section>
+	<h2>Registrar Nuevo Pollo</h2>
+	<form id="formRegistro" enctype="multipart/form-data">
+		<label for="partido">Partido:</label>
+		<input type="text" name="partido" id="partido" required>
+		<label for="tipo">Tipo de Pollo:</label>
+		<input type="text" name="tipo" id="tipo" required>
+		<label for="anillo">Número de Anillo:</label>
+		<input type="text" name="anillo" id="anillo" required>
+		<label for="foto">Fotografía:</label>
+		<input type="file" name="foto" id="foto" accept="image/*" required>
+		<br>
+		<button type="submit">Registrar Pollo</button>
+	</form>
+	<div id="mensaje"></div>
+</section>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script> 
+<script src="js/script.js"></script>
+</body>
+</html>

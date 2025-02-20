@@ -1,0 +1,247 @@
+body {
+	font-family: 'Arial', sans-serif;
+	background-color: #f2f2f2;
+	color: #333;
+	margin: 0;
+    padding: 0;
+}
+header {
+	background-color: #f8f8f8;
+	text-align: left;
+}
+img {
+	max-width: 100%;
+	height: auto;
+	max-height: 10vw;
+	position: relative;
+	display: inline-block;
+}
+nav {
+	background-color: #333;
+}
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+nav li {
+	float: left;
+}
+nav a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+nav a:hover {
+	background-color: #ddd;
+	color: black;
+}
+section {
+	padding: 20px;
+}
+form {
+	margin-top: 20px;
+}
+label {
+	display: inline-block;
+	margin-bottom: 8px;
+}
+input, select {
+	width: 100%;
+	padding: 8px;
+	margin-bottom: 16px;
+	box-sizing: border-box;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+}
+button {
+	background-color: #ff0000;
+	color: #fff;
+	padding: 10px 15px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+button:hover {
+	background-color: #cc0000;
+}
+h1 {
+	margin-top: 2vh;
+	margin-left: 5vh;
+	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+	font-size: 4vw;
+	position: relative;
+	display: inline-block;
+	vertical-align: top;
+	color: red;
+	text-shadow: -2px -2px 2px green, 2px -2px 2px green, -2px 2px 2px green, 2px 2px 2px green; /* Contorno verde iluminado */
+	background-color: yellow;
+	padding: 10px; /* Añadir relleno para resaltar el fondo */
+}
+#buscarAnillo {
+	width: 7vw;
+}
+.pollo-info {
+	display: flex;
+	align-items: flex-start;
+}
+.info {
+	flex: 1;
+}
+.imagen {
+	margin-left: 20px; /* Ajusta el margen según tus preferencias */
+}
+.imagen img {
+	width: 70vw;
+	max-height: none;
+    border: 1px solid #ddd;
+	border-radius: 10px;
+    transition: transform 0.3s;
+}
+.imagen:hover {
+    transform: scale(1.2);
+}
+.partido, .tipo, .anillo {
+	font-size: 1em;
+	font-weight: bold;
+	color: #ff0000; /* Color rojo según tu preferencia */
+}
+.datos{
+	font-weight: bolder;
+	color: #000; /* Color rojo según tu preferencia */
+}
+#banner {
+	width: 55vw;
+}
+.principal {
+	width: 60vw;
+	height: auto;
+}
+/*Comienza responsive*/
+@media screen and (max-width:912px) {
+	header {
+		background-color: #f8f8f8;
+		padding: 20px;
+		text-align: center;
+	}
+	img {
+		max-width: 100%;
+		height: auto;
+		max-height: 10vh;
+		/* position: relative; */
+		/* display: inline-block; */
+	}
+	h1 {
+		margin-top: 2vh;
+		/* margin-left: 5vh; */
+		font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+		/* font-size: 4vh; */
+		/* position: relative; */
+		display: inline-block;
+		vertical-align: top;
+		color: red;
+		text-shadow: -2px -2px 2px green, 2px -2px 2px green, -2px 2px 2px green, 2px 2px 2px green;
+		background-color: yellow;
+		padding: 10px;
+	}
+	#buscarAnillo {
+		width: 7vh;
+	}
+	.pollo-info {
+		display: block;
+		/* align-items: flex-start; */
+	}
+	.imagen {
+		/* margin-left: 20px; */
+		margin: 0;
+	}
+}
+@media screen and (max-width:480px) {
+	header {
+		background-color: #f8f8f8;
+		padding: 20px;
+		text-align: center;
+	}
+	img {
+		max-width: 100%;
+		height: auto;
+		max-height: 10vh;
+		/* position: relative; */
+		/* display: inline-block; */
+	}
+	h1 {
+		margin-top: 2vh;
+		/* margin-left: 5vh; */
+		font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+		/* font-size: 4vh; */
+		/* position: relative; */
+		display: inline-block;
+		vertical-align: top;
+		color: red;
+		text-shadow: -2px -2px 2px green, 2px -2px 2px green, -2px 2px 2px green, 2px 2px 2px green;
+		background-color: yellow;
+		padding: 10px;
+	}
+	#buscarAnillo {
+		width: 7vh;
+	}
+	.pollo-info {
+		display: block;
+		/* align-items: flex-start; */
+	}
+	.imagen {
+		/* margin-left: 20px; */
+		margin: 0;
+	}
+}
+@media screen and (max-width:393px) {
+	header {
+		background-color: #f8f8f8;
+		padding: 20px;
+		text-align: center;
+	}
+	img {
+		max-width: 100%;
+		height: auto;
+		max-height: 10vh;
+		/* position: relative; */
+		/* display: inline-block; */
+	}
+	h1 {
+		margin-top: 2vh;
+		/* margin-left: 5vh; */
+		font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+		/* font-size: 4vh; */
+		/* position: relative; */
+		display: inline-block;
+		vertical-align: top;
+		color: red;
+		text-shadow: -2px -2px 2px green, 2px -2px 2px green, -2px 2px 2px green, 2px 2px 2px green;
+		background-color: yellow;
+		padding: 10px;
+	}
+	#buscarAnillo {
+		width: 7vh;
+	}
+	.pollo-info {
+		display: block;
+		/* align-items: flex-start; */
+	}
+	.imagen {
+		/* margin-left: 20px; */
+		margin: 0;
+	}
+}
+#busqueda {
+	display: inline-block;
+	width: 15%;
+}
+
+#resultado {
+	width: 80%;
+	position: absolute;
+	display: inline;
+}
